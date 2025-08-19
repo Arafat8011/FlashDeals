@@ -24,10 +24,13 @@ const Header = () => {
                     </h1>
                 )}
                 <nav className={isOpen ? "w-full" : " "}>
-                    <ul className="gap-4 hidden md:flex">
+                    <ul className="gap-4 hidden md:flex py-4">
                         <li><a href="/" className="hover:text-blue-600"><FaHome size={20} /></a></li>
-                        <li><button onClick={() => setToggleCart(!toggleCart)} className="hover:text-blue-600">
+                        <li><button onClick={() => setToggleCart(!toggleCart)} className="relative hover:text-blue-600">
                             <FaShoppingCart size={20} />
+                            <h3 className="absolute scale-75 right-[-14px] top-[-10px] p-1.5 bg-red-500 flex items-center justify-center rounded-full font-bold leading-none text-white">
+                                {/* TODO: Cart Counter state replace here*/}
+                                0</h3>
                         </button> </li>
                     </ul>
                     <div className="md:hidden flex justify-end">
@@ -49,12 +52,20 @@ const Header = () => {
                     }
                 </nav>
             </div>
+            {/*bottom bar for mobile*/}
             <div className="md:hidden w-full bg-black  fixed bottom-0 left-0 z-2">
                 <div className="h-full text-white px-10">
                     <ul className="flex  justify-between items-center align-middle text-whit text-[12px]">
                         <li className="p-1.5 flex align-middle mx-auto "><a href="/" className=" hover:text-gray-500 flex-col align-middle justify-center "><FaHome size={20} className="mx-auto" /> <span >Home</span> </a></li>
-                        <li className="p-1.5 flex align-middle mx-auto "><button onClick={() => setToggleCart(!toggleCart)} className="hover:text-gray-500"><FaShoppingCart size={20} className="mx-auto" /><span>Cart</span></button> </li>
-                        <li className="p-1.5 flex align-middle mx-auto "><a href="/" className=" hover:text-gray-500"><FaUserCircle size={20} className="mx-auto" /><span>Account</span></a></li>
+                        <li className="p-1.5 flex align-middle mx-auto ">
+                            <button onClick={() => setToggleCart(!toggleCart)} className="hover:text-gray-500 relative">
+                                <FaShoppingCart size={20} className="mx-auto" />
+                                <span>Cart</span>
+                                <h3 className="absolute h-4 w-4  right-[-10px] top-[-6px] bg-red-500 flex items-center justify-center rounded-full font-[5px] leading-none p-1">
+                                    {/* TODO: Cart Counter state replace here*/}
+                                    0</h3>
+                            </button> </li>
+                        <li className="p-1.5 flex align-middle mx-auto "><Link href="/about" className=" hover:text-gray-500"><FaUserCircle size={20} className="mx-auto" /><span>Account</span></Link></li>
                     </ul>
                 </div>
             </div>

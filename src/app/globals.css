@@ -1,46 +1,69 @@
 @import "tailwindcss";
 
-/* Base theme (light) */
+/* Base (light theme) */
 :root {
-  --color-bg: 255, 255, 255;        /* white */
-  --color-fg: 23, 23, 23;           /* neutral-900 */
-  --color-surface: 245, 245, 245;   /* neutral-100 */
-  --color-primary: 37, 99, 235;     /* blue-600 */
-  --color-primary-foreground: 255, 255, 255;
-  --color-muted: 156, 163, 175;     /* neutral-400 */
+  --bg: 0.98 0 0; /* near white for clean, modern look */
+  --fg: 0.2 0.05 240; /* deep charcoal with subtle blue undertone */
+  --surface: 0.95 0.02 240; /* light gray-blue for cards and panels */
+  --primary: 0.65 0.25 210; /* vibrant teal-blue, inspired by Amazon's modern vibe */
+  --primary-fg: 0.98 0 0; /* crisp white for text on primary buttons */
+  --secondary: 0.55 0.15 40; /* warm amber for accents, like Amazon's highlights */
+  --secondary-fg: 0.1 0 0; /* near black for text on secondary elements */
+  --muted: 0.6 0.05 220; /* soft blue-gray for subtle text/icons */
+  --button-bg: 0.65 0.25 210; /* matches primary for buttons */
+  --button-hover: 0.7 0.3 210; /* slightly brighter on hover */
+  --button-active: 0.6 0.25 210; /* slightly darker on click */
+  --input-bg: 0.98 0 0; /* clean white for input fields */
+  --input-border: 0.7 0.05 220; /* subtle gray-blue border */
+  --input-focus: 0.65 0.25 210; /* primary teal-blue for focus state */
+  --card-bg: 0.95 0.02 240; /* matches surface for card backgrounds */
+  --card-shadow: 0.3 0.05 240 / 0.2; /* subtle shadow with blue-gray tint */
+  --accent: 0.7 0.2 160; /* fresh aqua for highlights or badges */
+  --error: 0.5 0.4 0; /* bold red for error states */
+  --success: 0.5 0.3 120; /* green for success states */
 }
 
 @theme inline {
-  --color-bg: rgb(var(--color-bg) / <alpha-value>);
-  --color-fg: rgb(var(--color-fg) / <alpha-value>);
-  --color-surface: rgb(var(--color-surface) / <alpha-value>);
-  --color-primary: rgb(var(--color-primary) / <alpha-value>);
-  --color-primary-foreground: rgb(var(--color-primary-foreground) / <alpha-value>);
-  --color-muted: rgb(var(--color-muted) / <alpha-value>);
+  --color-bg: oklch(var(--bg));
+  --color-fg: oklch(var(--fg));
+  --color-surface: oklch(var(--surface));
+  --color-primary: oklch(var(--primary) );
+  --color-primary-fg: oklch(var(--primary-fg));
+  --color-secondary: oklch(var(--secondary));
+  --color-secondary-fg: oklch(var(--secondary-fg));
+  --color-muted: oklch(var(--muted));
+  --color-button-bg: oklch(var(--button-bg));
+  --color-button-hover: oklch(var(--button-hover));
+  --color-button-active: oklch(var(--button-active));
+  --color-input-bg: oklch(var(--input-bg));
+  --color-input-border: oklch(var(--input-border));
+  --color-input-focus: oklch(var(--input-focus));
+  --color-card-bg: oklch(var(--card-bg));
+  --color-card-shadow: oklch(var(--card-shadow));
+  --color-accent: oklch(var(--accent));
+  --color-error: oklch(var(--error));
+  --color-success: oklch(var(--success));
 }
 
-/* Dark mode */
+/* Dark theme */
 .dark {
-  --color-bg: 10, 10, 10;           /* neutral-950 */
-  --color-fg: 237, 237, 237;        /* neutral-200 */
-  --color-surface: 38, 38, 38;      /* neutral-800 */
-  --color-primary: 96, 165, 250;    /* blue-400 */
-  --color-primary-foreground: 23, 23, 23; 
-  --color-muted: 163, 163, 163;
+  --bg: 0.12 0.05 240; /* deep blue-gray for modern, sleek feel */
+  --fg: 0.9 0.02 240; /* off-white with subtle blue for readability */
+  --surface: 0.18 0.05 240; /* darker gray-blue for cards and panels */
+  --primary: 0.7 0.2 210; /* slightly softer teal-blue for dark mode */
+  --primary-fg: 0.1 0 0; /* near black for text on primary buttons */
+  --secondary: 0.6 0.15 40; /* muted amber for dark mode accents */
+  --secondary-fg: 0.95 0 0; /* near white for text on secondary elements */
+  --muted: 0.65 0.05 220; /* lighter blue-gray for muted text/icons */
+  --button-bg: 0.7 0.2 210; /* matches primary for buttons */
+  --button-hover: 0.75 0.25 210; /* brighter hover state */
+  --button-active: 0.65 0.2 210; /* darker active state */
+  --input-bg: 0.15 0.05 240; /* dark gray-blue for input fields */
+  --input-border: 0.5 0.05 220; /* muted blue-gray border */
+  --input-focus: 0.7 0.2 210; /* primary teal-blue for focus */
+  --card-bg: 0.18 0.05 240; /* matches surface for card backgrounds */
+  --card-shadow: 0.3 0.05 240 / 0.3; /* slightly stronger shadow in dark mode */
+  --accent: 0.75 0.2 160; /* brighter aqua for highlights */
+  --error: 0.55 0.35 0; /* softer red for error states */
+  --success: 0.55 0.25 120; /* softer green for success states */
 }
-
-/* Corporate theme */
-.corporate {
-  --color-bg: 248, 250, 252;        /* slate-50 */
-  --color-fg: 30, 41, 59;           /* slate-800 */
-  --color-surface: 226, 232, 240;   /* slate-200 */
-  --color-primary: 2, 132, 199;     /* sky-600 */
-  --color-primary-foreground: 255, 255, 255;
-  --color-muted: 100, 116, 139;     /* slate-500 */
-}
-
-/* Reset body */
-body {
-  @apply bg-bg text-fg font-sans;
-}
-

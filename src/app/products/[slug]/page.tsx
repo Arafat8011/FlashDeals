@@ -25,7 +25,6 @@ export default async function BlogPostPage({
                 <div className="p-4">
                   <h2 className="font-bold text-2xl mb-4">{item?.name}</h2>
                   <div className="font-bold flex items-center"> <h3> <span className="text-success">*****</span> 2 reviews</h3></div>
-                  <p>{item?.id}</p>
                   <div className="bg-surface my-2 max-w-fit py-2 pr-5">
                     <p>Special Price</p>
                     <h2 className="font-bold text-xl">Tk {item?.price}</h2>
@@ -41,7 +40,7 @@ export default async function BlogPostPage({
                     </div>
                     <div className="flex gap-2 py-2">
                       <input className="bg-input-bg rounded px-2 font-semibold" type="number" defaultValue={0} />
-                      <button className="bg-button-bg p-2 rounded-md font-bold text-primary-fg hover:bg-button-hover active:bg-button-active">Add to Cart</button>
+                      <button className="bg-button-bg p-2 cursor-pointer rounded-md font-bold text-primary-fg hover:bg-button-hover active:bg-button-active">Add to Cart</button>
                     </div>
                   </div>
                 </div>
@@ -50,10 +49,10 @@ export default async function BlogPostPage({
             <div className="md:flex gap-4 my-4">
               <div className="md:w-2/3 bg-surface">
                 <div className="flex justify-start  font-bold shadow">
-                  <button className="bg-primary text-primary-fg px-4 py-2">Specifications</button>
-                  <button className="border-primary border-2 px-4 py-2">Details</button>
-                  <button className="border-primary border-2 px-4 py-2">Q&A</button>
-                  <button className="border-primary border-2 px-4 py-2">Review</button>
+                  <button className="bg-primary text-primary-fg px-4 py-2 cursor-pointer">Specifications</button>
+                  <button className="border-primary border-2 px-4 py-2 cursor-pointer">Details</button>
+                  <button className="border-primary border-2 px-4 py-2 cursor-pointer">Q&A</button>
+                  <button className="border-primary border-2 px-4 py-2 cursor-pointer">Review</button>
                 </div>
                 <div className="px-4">
                   <h2 className="text-2xl font-bold my-4">Specifications</h2>

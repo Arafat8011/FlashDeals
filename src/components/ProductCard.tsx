@@ -10,7 +10,7 @@ export default function ProductCard({ product }: { product: ProductTypes }) {
         <h2 className="font-bold text-lg"> <Link href={`/products/${product.id}`} > {product.name} </Link> </h2>
         <p className='text-muted'>{product.brand}</p>
         <p className="text-accent">${product.price}</p>
-        <button className="mt-2 w-full py-2 rounded  bg-primary text-primary-fg  hover:bg-button-hover active:bg-button-active  transition">
+        <button className="mt-2 w-full py-2 rounded  bg-primary text-primary-fg cursor-pointer  hover:bg-button-hover active:bg-button-active  transition">
         View Product
         </button>
       </div>

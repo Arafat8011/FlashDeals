@@ -41,7 +41,7 @@ const Header = () => {
                             {categories.map((menu, index) => (
                                 <li key={index} className="w-full ">
                                     {menu.sub.map((item, index) => (
-                                        <li key={index} className="hover:bg-primary/80 hover:text-primary-fg py-2">{item.name}</li>
+                                        <li key={index} className="hover:bg-primary/80 hover:text-primary-fg cursor-pointer py-2">{item.name}</li>
                                     ))}
                                 </li>
                             ))}

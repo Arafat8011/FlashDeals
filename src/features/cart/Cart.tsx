@@ -11,7 +11,7 @@ const Cart = ({ toggle }: PropsType) => {
         <div className="w-full text-bg bg-gray-600 shadow ">
           <div className="my-auto  flex justify-between">
             <h3 className="font-bold py-3 px-4 flex items-center gap-x-px">Total 
-                            <span className=" scale-75 p-1.5 mx-1 bg-red-500 flex items-center justify-center rounded-full font-bold leading-none text-white">
+                            <span className=" scale-75 p-1.5 mx-1 bg-red-500 text-white flex items-center justify-center rounded-full font-bold leading-none text-white">
                                 {/* TODO: Cart Counter state replace here*/}
                                 0</span>
             </h3>

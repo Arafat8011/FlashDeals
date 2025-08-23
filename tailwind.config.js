@@ -7,15 +7,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        'foreground': '#37474F', // Primary text color
-        'background': '#CFD8DC', // Light background
-        'input-bg': '#B0BEC5',   // Input field background
-        'button-primary': '#546E7A', // Primary button
-        'button-secondary': '#90A4AE', // Secondary button
-        'accent': '#37474F',     // Hover or highlight color
-      },
-    },
+    }
   },
   plugins: [],
 }

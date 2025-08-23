@@ -1,0 +1,760 @@
+[
+  {
+    "id": "lap_apple_1",
+    "name": "MacBook Air M2",
+    "brand": "Apple",
+    "price": 1199.99,
+    "currency": "USD",
+    "stock": 50,
+    "category": "Laptops",
+    "subCategory": "Apple",
+    "rating": 4.8,
+    "description": "13.6-inch Liquid Retina display, M2 chip, 8GB RAM, 256GB SSD.",
+    "image": "/images/laptops/apple/macbook_air_m2.jpg",
+    "specifications": {
+      "processor": "Apple M2",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "13.6-inch Liquid Retina"
+    }
+  },
+  {
+    "id": "lap_apple_2",
+    "name": "MacBook Pro 14 M1 Pro",
+    "brand": "Apple",
+    "price": 1999.99,
+    "currency": "USD",
+    "stock": 30,
+    "category": "Laptops",
+    "subCategory": "Apple",
+    "rating": 4.9,
+    "description": "14-inch Liquid Retina XDR, M1 Pro chip, 16GB RAM, 512GB SSD.",
+    "image": "/images/laptops/apple/macbook_pro_m1.jpg",
+    "specifications": {
+      "processor": "Apple M1 Pro",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "14-inch Liquid Retina XDR"
+    }
+  },
+  {
+    "id": "lap_apple_3",
+    "name": "MacBook Air M1",
+    "brand": "Apple",
+    "price": 999.99,
+    "currency": "USD",
+    "stock": 70,
+    "category": "Laptops",
+    "subCategory": "Apple",
+    "rating": 4.7,
+    "description": "13.3-inch Retina display, M1 chip, 8GB RAM, 256GB SSD.",
+    "image": "/images/laptops/apple/macbook_air_m1.jpg",
+    "specifications": {
+      "processor": "Apple M1",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "13.3-inch Retina"
+    }
+  },
+  {
+    "id": "lap_apple_4",
+    "name": "MacBook Pro 16 M2 Max",
+    "brand": "Apple",
+    "price": 3499.99,
+    "currency": "USD",
+    "stock": 20,
+    "category": "Laptops",
+    "subCategory": "Apple",
+    "rating": 4.9,
+    "description": "16-inch Liquid Retina XDR, M2 Max chip, 32GB RAM, 1TB SSD.",
+    "image": "/images/laptops/apple/macbook_pro_16_m2.jpg",
+    "specifications": {
+      "processor": "Apple M2 Max",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "display": "16-inch Liquid Retina XDR"
+    }
+  },
+  {
+    "id": "lap_apple_5",
+    "name": "MacBook Air M2 15-inch",
+    "brand": "Apple",
+    "price": 1299.99,
+    "currency": "USD",
+    "stock": 40,
+    "category": "Laptops",
+    "subCategory": "Apple",
+    "rating": 4.8,
+    "description": "15.3-inch Liquid Retina display, M2 chip, 8GB RAM, 512GB SSD.",
+    "image": "/images/laptops/apple/macbook_air_m2_15.jpg",
+    "specifications": {
+      "processor": "Apple M2",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "display": "15.3-inch Liquid Retina"
+    }
+  },
+  {
+    "id": "lap_asus_1",
+    "name": "Asus ZenBook 14",
+    "brand": "Asus",
+    "price": 899.99,
+    "currency": "USD",
+    "stock": 60,
+    "rating": 4.6,
+    "category": "Laptop",
+    "subCategory": "Asus",
+    "description": "14-inch OLED, Intel Core i5, 16GB RAM, 512GB SSD.",
+    "image": "/images/laptops/asus/zenbook_14.jpg",
+    "specifications": {
+      "processor": "Intel Core i5-1240P",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "14-inch OLED"
+    }
+  },
+  {
+    "id": "lap_asus_2",
+    "name": "Asus ROG Zephyrus G14",
+    "brand": "Asus",
+    "price": 1499.99,
+    "currency": "USD",
+    "stock": 25,
+    "rating": 4.7,
+    "category": "Laptop",
+    "subCategory": "Asus",
+    "description": "14-inch QHD, AMD Ryzen 9, 16GB RAM, 1TB SSD, RTX 3060.",
+    "image": "/images/laptops/asus/rog_zephyrus_g14.jpg",
+    "specifications": {
+      "processor": "AMD Ryzen 9 5900HS",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "display": "14-inch QHD"
+    }
+  },
+  {
+    "id": "lap_asus_3",
+    "name": "Asus VivoBook 15",
+    "brand": "Asus",
+    "price": 599.99,
+    "currency": "USD",
+    "stock": 80,
+    "rating": 4.4,
+    "category": "Laptop",
+    "subCategory": "Asus",
+    "description": "15.6-inch FHD, Intel Core i3, 8GB RAM, 256GB SSD.",
+    "image": "/images/laptops/asus/vivobook_15.jpg",
+    "specifications": {
+      "processor": "Intel Core i3-1115G4",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "15.6-inch FHD"
+    }
+  },
+  {
+    "id": "lap_asus_4",
+    "name": "Asus TUF Gaming A15",
+    "brand": "Asus",
+    "price": 1099.99,
+    "currency": "USD",
+    "stock": 35,
+    "rating": 4.5,
+    "category": "Laptop",
+    "subCategory": "Asus",
+    "description": "15.6-inch FHD 144Hz, AMD Ryzen 7, 16GB RAM, 512GB SSD, RTX 3050.",
+    "image": "/images/laptops/asus/tuf_gaming_a15.jpg",
+    "specifications": {
+      "processor": "AMD Ryzen 7 4800H",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "15.6-inch FHD 144Hz"
+    }
+  },
+  {
+    "id": "lap_asus_5",
+    "name": "Asus ExpertBook B9",
+    "brand": "Asus",
+    "price": 1399.99,
+    "currency": "USD",
+    "stock": 20,
+    "rating": 4.6,
+    "category": "Laptop",
+    "subCategory": "Asus",
+    "description": "14-inch FHD, Intel Core i7, 16GB RAM, 1TB SSD.",
+    "image": "/images/laptops/asus/expertbook_b9.jpg",
+    "specifications": {
+      "processor": "Intel Core i7-1255U",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "display": "14-inch FHD"
+    }
+  },
+  {
+    "id": "lap_dell_1",
+    "name": "Dell XPS 13",
+    "brand": "Dell",
+    "price": 1299.99,
+    "currency": "USD",
+    "stock": 45,
+    "rating": 4.8,
+    "category": "Laptop",
+    "subCategory": "Dell",
+    "description": "13.4-inch 4K UHD, Intel Core i7, 16GB RAM, 512GB SSD.",
+    "image": "/images/laptops/dell/xps_13.jpg",
+    "specifications": {
+      "processor": "Intel Core i7-1250U",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "13.4-inch 4K UHD"
+    }
+  },
+  {
+    "id": "lap_dell_2",
+    "name": "Dell Inspiron 15",
+    "brand": "Dell",
+    "price": 699.99,
+    "currency": "USD",
+    "stock": 65,
+    "rating": 4.5,
+    "category": "Laptop",
+    "subCategory": "Dell",
+    "description": "15.6-inch FHD, Intel Core i5, 8GB RAM, 256GB SSD.",
+    "image": "/images/laptops/dell/inspiron_15.jpg",
+    "specifications": {
+      "processor": "Intel Core i5-1135G7",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "15.6-inch FHD"
+    }
+  },
+  {
+    "id": "lap_dell_3",
+    "name": "Dell Alienware m15",
+    "brand": "Dell",
+    "price": 1899.99,
+    "currency": "USD",
+    "stock": 20,
+    "rating": 4.7,
+    "category": "Laptop",
+    "subCategory": "Dell",
+    "description": "15.6-inch FHD 165Hz, Intel Core i7, 16GB RAM, 1TB SSD, RTX 3070.",
+    "image": "/images/laptops/dell/alienware_m15.jpg",
+    "specifications": {
+      "processor": "Intel Core i7-12700H",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "display": "15.6-inch FHD 165Hz"
+    }
+  },
+  {
+    "id": "lap_dell_4",
+    "name": "Dell Latitude 7430",
+    "brand": "Dell",
+    "price": 1099.99,
+    "currency": "USD",
+    "stock": 30,
+    "rating": 4.6,
+    "category": "Laptop",
+    "subCategory": "Dell",
+    "description": "14-inch FHD, Intel Core i5, 16GB RAM, 512GB SSD.",
+    "image": "/images/laptops/dell/latitude_7430.jpg",
+    "specifications": {
+      "processor": "Intel Core i5-1245U",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "14-inch FHD"
+    }
+  },
+  {
+    "id": "lap_dell_5",
+    "name": "Dell XPS 15",
+    "brand": "Dell",
+    "price": 1799.99,
+    "currency": "USD",
+    "stock": 25,
+    "rating": 4.8,
+    "category": "Laptop",
+    "subCategory": "Dell",
+    "description": "15.6-inch 4K OLED, Intel Core i7, 32GB RAM, 1TB SSD.",
+    "image": "/images/laptops/dell/xps_15.jpg",
+    "specifications": {
+      "processor": "Intel Core i7-12700H",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "display": "15.6-inch 4K OLED"
+    }
+  },
+  {
+    "id": "lap_lenovo_1",
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "brand": "Lenovo",
+    "price": 1399.99,
+    "currency": "USD",
+    "stock": 40,
+    "rating": 4.7,
+    "category": "Laptops",
+    "subCategory": "Lenovo",
+    "description": "14-inch WQHD, Intel Core i7, 16GB RAM, 512GB SSD.",
+    "image": "/images/laptops/lenovo/thinkpad_x1.jpg",
+    "specifications": {
+      "processor": "Intel Core i7-1260P",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "14-inch WQHD"
+    }
+  },
+  {
+    "id": "lap_lenovo_2",
+    "name": "Lenovo IdeaPad 3",
+    "brand": "Lenovo",
+    "price": 549.99,
+    "currency": "USD",
+    "stock": 75,
+    "rating": 4.4,
+    "category": "Laptops",
+    "subCategory": "Lenovo",
+    "description": "15.6-inch FHD, AMD Ryzen 5, 8GB RAM, 256GB SSD.",
+    "image": "/images/laptops/lenovo/ideapad_3.jpg",
+    "specifications": {
+      "processor": "AMD Ryzen 5 5500U",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "15.6-inch FHD"
+    }
+  },
+  {
+    "id": "lap_lenovo_3",
+    "name": "Lenovo Legion 5",
+    "brand": "Lenovo",
+    "price": 1299.99,
+    "currency": "USD",
+    "stock": 30,
+    "rating": 4.6,
+    "category": "Laptops",
+    "subCategory": "Lenovo",
+    "description": "15.6-inch FHD 165Hz, AMD Ryzen 7, 16GB RAM, 512GB SSD, RTX 3060.",
+    "image": "/images/laptops/lenovo/legion_5.jpg",
+    "specifications": {
+      "processor": "AMD Ryzen 7 5800H",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "15.6-inch FHD 165Hz"
+    }
+  },
+  {
+    "id": "lap_lenovo_4",
+    "name": "Lenovo Yoga 7i",
+    "brand": "Lenovo",
+    "price": 999.99,
+    "currency": "USD",
+    "stock": 50,
+    "rating": 4.5,
+    "category": "Laptops",
+    "subCategory": "Lenovo",
+    "description": "14-inch 2.8K OLED, Intel Core i5, 16GB RAM, 512GB SSD.",
+    "image": "/images/laptops/lenovo/yoga_7i.jpg",
+    "specifications": {
+      "processor": "Intel Core i5-1240P",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "14-inch 2.8K OLED"
+    }
+  },
+  {
+    "id": "lap_lenovo_5",
+    "name": "Lenovo ThinkBook 14s",
+    "brand": "Lenovo",
+    "price": 849.99,
+    "currency": "USD",
+    "stock": 60,
+    "rating": 4.5,
+    "category": "Laptops",
+    "subCategory": "Lenovo",
+    "description": "14-inch FHD, AMD Ryzen 5, 16GB RAM, 512GB SSD.",
+    "image": "/images/laptops/lenovo/thinkbook_14s.jpg",
+    "specifications": {
+      "processor": "AMD Ryzen 5 5600U",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "14-inch FHD"
+    }
+  },
+  {
+    "id": "desk_apple_1",
+    "name": "iMac 24-inch",
+    "brand": "Apple",
+    "price": 1299.99,
+    "currency": "USD",
+    "stock": 30,
+    "rating": 4.8,
+    "category": "Desktop",
+    "subCategory": "Apple",
+    "description": "24-inch 4.5K Retina, M1 chip, 8GB RAM, 256GB SSD.",
+    "image": "/images/desktop/apple/imac_24.jpg",
+    "specifications": {
+      "processor": "Apple M1",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "24-inch 4.5K Retina"
+    }
+  },
+  {
+    "id": "desk_apple_2",
+    "name": "Mac Studio",
+    "brand": "Apple",
+    "price": 1999.99,
+    "currency": "USD",
+    "stock": 20,
+    "rating": 4.9,
+    "category": "Desktop",
+    "subCategory": "Apple",
+    "description": "M1 Max chip, 32GB RAM, 512GB SSD, compact design.",
+    "image": "/images/desktop/apple/mac_studio.jpg",
+    "specifications": {
+      "processor": "Apple M1 Max",
+      "ram": "32GB",
+      "storage": "512GB SSD",
+      "display": "N/A"
+    }
+  },
+  {
+    "id": "desk_apple_3",
+    "name": "Mac Mini M2",
+    "brand": "Apple",
+    "price": 599.99,
+    "currency": "USD",
+    "stock": 50,
+    "rating": 4.7,
+    "category": "Desktop",
+    "subCategory": "Apple",
+    "description": "M2 chip, 8GB RAM, 256GB SSD, compact form factor.",
+    "image": "/images/desktop/apple/mac_mini_m2.jpg",
+    "specifications": {
+      "processor": "Apple M2",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "N/A"
+    }
+  },
+  {
+    "id": "desk_apple_4",
+    "name": "iMac 27-inch",
+    "brand": "Apple",
+    "price": 1799.99,
+    "currency": "USD",
+    "stock": 25,
+    "rating": 4.8,
+    "category": "Desktop",
+    "subCategory": "Apple",
+    "description": "27-inch 5K Retina, Intel Core i5, 16GB RAM, 512GB SSD.",
+    "image": "/images/desktop/apple/imac_27.jpg",
+    "specifications": {
+      "processor": "Intel Core i5",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "27-inch 5K Retina"
+    }
+  },
+  {
+    "id": "desk_apple_5",
+    "name": "Mac Pro",
+    "brand": "Apple",
+    "price": 5999.99,
+    "currency": "USD",
+    "stock": 10,
+    "rating": 4.9,
+    "category": "Desktop",
+    "subCategory": "Apple",
+    "description": "Intel Xeon W, 32GB RAM, 256GB SSD, modular design.",
+    "image": "/images/desktop/apple/mac_pro.jpg",
+    "specifications": {
+      "processor": "Intel Xeon W",
+      "ram": "32GB",
+      "storage": "256GB SSD",
+      "display": "N/A"
+    }
+  },
+  {
+    "id": "desk_asus_1",
+    "name": "Asus ROG Strix G15",
+    "brand": "Asus",
+    "price": 1299.99,
+    "currency": "USD",
+    "stock": 30,
+    "rating": 4.6,
+    "category": "Desktop",
+    "subCategory": "Asus",
+    "description": "AMD Ryzen 7, 16GB RAM, 1TB SSD, RTX 3060.",
+    "image": "/images/desktop/asus/rog_strix_g15.jpg",
+    "specifications": {
+      "processor": "AMD Ryzen 7 5800X",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "graphics": "NVIDIA RTX 3060"
+    }
+  },
+  {
+    "id": "desk_asus_2",
+    "name": "Asus TUF Gaming GT501",
+    "brand": "Asus",
+    "price": 1599.99,
+    "currency": "USD",
+    "stock": 20,
+    "rating": 4.7,
+    "category": "Desktop",
+    "subCategory": "Asus",
+    "description": "Intel Core i7, 32GB RAM, 1TB SSD, RTX 3070.",
+    "image": "/images/desktop/asus/tuf_gaming_gt501.jpg",
+    "specifications": {
+      "processor": "Intel Core i7-12700F",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "graphics": "NVIDIA RTX 3070"
+    }
+  },
+  {
+    "id": "desk_asus_3",
+    "name": "Asus VivoPC",
+    "brand": "Asus",
+    "price": 499.99,
+    "currency": "USD",
+    "stock": 60,
+    "rating": 4.4,
+    "description": "Intel Core i3, 8GB RAM, 256GB SSD, compact design.",
+    "image": "/images/desktop/asus/vivopc.jpg",
+    "specifications": {
+      "processor": "Intel Core i3-12100",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Integrated"
+    }
+  },
+  {
+    "id": "desk_asus_4",
+    "name": "Asus ProArt Station",
+    "brand": "Asus",
+    "price": 1999.99,
+    "currency": "USD",
+    "stock": 15,
+    "rating": 4.8,
+    "category": "Desktop",
+    "subCategory": "Asus",
+    "description": "Intel Core i9, 32GB RAM, 1TB SSD, RTX 3060.",
+    "image": "/images/desktop/asus/proart_station.jpg",
+    "specifications": {
+      "processor": "Intel Core i9-12900K",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "graphics": "NVIDIA RTX 3060"
+    }
+  },
+  {
+    "id": "desk_asus_5",
+    "name": "Asus Mini PC PN51",
+    "brand": "Asus",
+    "price": 649.99,
+    "currency": "USD",
+    "stock": 50,
+    "rating": 4.5,
+    "category": "Desktop",
+    "subCategory": "Asus",
+    "description": "AMD Ryzen 5, 16GB RAM, 512GB SSD, compact form factor.",
+    "image": "/images/desktop/asus/mini_pc_pn51.jpg",
+    "specifications": {
+      "processor": "AMD Ryzen 5 5500U",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Integrated"
+    }
+  },
+  {
+    "id": "desk_dell_1",
+    "name": "Dell XPS Desktop",
+    "brand": "Dell",
+    "price": 1399.99,
+    "currency": "USD",
+    "stock": 35,
+    "rating": 4.7,
+    "category": "Dell",
+    "subCategory": "Desktop",
+    "description": "Intel Core i7, 16GB RAM, 512GB SSD, RTX 3060.",
+    "image": "/images/desktop/dell/xps_desktop.jpg",
+    "specifications": {
+      "processor": "Intel Core i7-12700",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "NVIDIA RTX 3060"
+    }
+  },
+  {
+    "id": "desk_dell_2",
+    "name": "Dell Inspiron Desktop",
+    "brand": "Dell",
+    "price": 599.99,
+    "currency": "USD",
+    "stock": 70,
+    "rating": 4.4,
+    "category": "Dell",
+    "subCategory": "Desktop",
+    "description": "Intel Core i5, 8GB RAM, 256GB SSD, integrated graphics.",
+    "image": "/images/desktop/dell/inspiron_desktop.jpg",
+    "specifications": {
+      "processor": "Intel Core i5-12400",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Integrated"
+    }
+  },
+  {
+    "id": "desk_dell_3",
+    "name": "Dell Alienware Aurora R13",
+    "brand": "Dell",
+    "price": 2199.99,
+    "currency": "USD",
+    "stock": 15,
+    "rating": 4.8,
+    "category": "Dell",
+    "subCategory": "Desktop",
+    "description": "Intel Core i9, 32GB RAM, 1TB SSD, RTX 3080.",
+    "image": "/images/desktop/dell/alienware_aurora_r13.jpg",
+    "specifications": {
+      "processor": "Intel Core i9-12900F",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "graphics": "NVIDIA RTX 3080"
+    }
+  },
+  {
+    "id": "desk_dell_4",
+    "name": "Dell OptiPlex 7090",
+    "brand": "Dell",
+    "price": 899.99,
+    "currency": "USD",
+    "stock": 50,
+    "rating": 4.5,
+    "category": "Dell",
+    "subCategory": "Desktop",
+    "description": "Intel Core i5, 16GB RAM, 512GB SSD, integrated graphics.",
+    "image": "/images/desktop/dell/optiplex_7090.jpg",
+    "specifications": {
+      "processor": "Intel Core i5-11500",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Integrated"
+    }
+  },
+  {
+    "id": "desk_dell_5",
+    "name": "Dell Precision 3660",
+    "brand": "Dell",
+    "price": 1699.99,
+    "currency": "USD",
+    "stock": 25,
+    "rating": 4.7,
+    "category": "Dell",
+    "subCategory": "Desktop",
+    "description": "Intel Core i7, 32GB RAM, 1TB SSD, NVIDIA T1000.",
+    "image": "/images/desktop/dell/precision_3660.jpg",
+    "specifications": {
+      "processor": "Intel Core i7-12700",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "graphics": "NVIDIA T1000"
+    }
+  },
+  {
+    "id": "desk_lenovo_1",
+    "name": "Lenovo Legion Tower 5",
+    "brand": "Lenovo",
+    "price": 1299.99,
+    "currency": "USD",
+    "stock": 30,
+    "rating": 4.6,
+    "category": "Desktop",
+    "subCategory": "Lenovo",
+    "description": "AMD Ryzen 7, 16GB RAM, 512GB SSD, RTX 3060.",
+    "image": "/images/desktop/lenovo/legion_tower_5.jpg",
+    "specifications": {
+      "processor": "AMD Ryzen 7 5800",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "NVIDIA RTX 3060"
+    }
+  },
+  {
+    "id": "desk_lenovo_2",
+    "name": "Lenovo IdeaCentre 5",
+    "brand": "Lenovo",
+    "price": 599.99,
+    "currency": "USD",
+    "stock": 60,
+    "rating": 4.4,
+    "category": "Desktop",
+    "subCategory": "Lenovo",
+    "description": "Intel Core i5, 8GB RAM, 256GB SSD, integrated graphics.",
+    "image": "/images/desktop/lenovo/ideacentre_5.jpg",
+    "specifications": {
+      "processor": "Intel Core i5-12400",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Integrated"
+    }
+  },
+  {
+    "id": "desk_lenovo_3",
+    "name": "Lenovo ThinkStation P360",
+    "brand": "Lenovo",
+    "price": 1699.99,
+    "currency": "USD",
+    "stock": 20,
+    "rating": 4.7,
+    "category": "Desktop",
+    "subCategory": "Lenovo",
+    "description": "Intel Core i7, 32GB RAM, 1TB SSD, NVIDIA T1000.",
+    "image": "/images/desktop/lenovo/thinkstation_p360.jpg",
+    "specifications": {
+      "processor": "Intel Core i7-12700",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "graphics": "NVIDIA T1000"
+    }
+  },
+  {
+    "id": "desk_lenovo_4",
+    "name": "Lenovo Yoga AIO 7",
+    "brand": "Lenovo",
+    "price": 1499.99,
+    "currency": "USD",
+    "stock": 25,
+    "rating": 4.8,
+    "category": "Desktop",
+    "subCategory": "Lenovo",
+    "description": "27-inch 4K, AMD Ryzen 7, 16GB RAM, 512GB SSD.",
+    "image": "/images/desktop/lenovo/yoga_aio_7.jpg",
+    "specifications": {
+      "processor": "AMD Ryzen 7 5800H",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "27-inch 4K"
+    }
+  },
+  {
+    "id": "desk_lenovo_5",
+    "name": "Lenovo ThinkCentre M70q",
+    "brand": "Lenovo",
+    "price": 699.99,
+    "currency": "USD",
+    "stock": 50,
+    "rating": 4.5,
+    "category": "Desktop",
+    "subCategory": "Lenovo",
+    "description": "Intel Core i5, 16GB RAM, 512GB SSD, compact design.",
+    "image": "/images/desktop/lenovo/thinkcentre_m70q.jpg",
+    "specifications": {
+      "processor": "Intel Core i5-12400",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Integrated"
+    }
+  }
+]

@@ -2,7 +2,7 @@
 import Cart from "@/features/cart/Cart";
 import Link from "next/link";
 import { useState } from "react"
-import { FaShoppingCart, FaHome, FaUserCircle, FaBox } from "react-icons/fa";
+import { FaShoppingCart, FaHome, FaUserCircle} from "react-icons/fa";
 import { Divide as Hamburger } from "hamburger-react"
 import { motion } from "framer-motion"
 import { categories } from "@/data/menuItems"
@@ -18,15 +18,15 @@ const Header = () => {
             <div className="container flex justify-between items-center py-1 px-4 mx-auto">
                 {!isOpen && (
                     <h1 className="text-2xl font-bold text-primary">
-                        <Link href="/">
+                        <Link href="/" className="cursor-pointer hover:text-button-hover active:text-button-active">
                             FlashDeals
                         </Link>
                     </h1>
                 )}
                 <nav className={isOpen ? "w-full" : " "}>
                     <ul className="gap-4 hidden md:flex py-4">
-                        <li><a href="/" className="hover:text-button-hover"><FaHome size={20} /></a></li>
-                        <li><button onClick={() => setToggleCart(!toggleCart)} className="relative hover:text-button-hover">
+                        <li><a href="/" className="cursor-pointer hover:text-button-hover active:text-button-active"><FaHome size={20} /></a></li>
+                        <li><button onClick={() => setToggleCart(!toggleCart)} className="relative cursor-pointer hover:text-button-hover active:text-button-active">
                             <FaShoppingCart size={20} />
                             <h3 className="absolute scale-75 right-[-14px] top-[-10px] p-1.5 bg-red-500 flex items-center justify-center rounded-full font-bold leading-none text-white">
                                 {/* TODO: Cart Counter state replace here*/}

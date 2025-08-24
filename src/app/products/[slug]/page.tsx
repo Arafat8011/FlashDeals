@@ -46,7 +46,8 @@ export default async function BlogPostPage({
                 </div>
               </div>
             </div>
-            <div className="md:flex gap-4 my-4">
+            {/*NOTE: Products specifications */}
+            <div className="md:flex gap-2 my-2 ">
               <div className="md:w-2/3 bg-surface">
                 <div className="flex justify-start  font-bold shadow">
                   <button className="bg-primary text-primary-fg px-4 py-2 cursor-pointer">Specifications</button>
